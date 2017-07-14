@@ -146,7 +146,7 @@ sudo composer create-project laravel/laravel /var/www/laravel
 modificamos los permisos
 
 ```
-sudo chown -R :www-data /var/www/laravel
+sudo chown -R vagrant:www-data /var/www/laravel
 sudo chmod -R 775 /var/www/laravel/storage
 ```
 
